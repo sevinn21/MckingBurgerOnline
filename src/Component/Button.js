@@ -5,7 +5,7 @@ const Button = ({ color, text, ...restProps }) => {
       <button style={{ color: color, width:"50px",height:"30px" }} {...restProps}>
         {text}
       </button>
-    );
+    ); 
   };
 
 export default Button
