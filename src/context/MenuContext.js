@@ -3,7 +3,7 @@ import React from 'react'
 const MenuContext = React.createContext({
     menus: [
         {
-            key:1,
+            key:1, 
             name:"salad",
             price:0.50,
             count:0
