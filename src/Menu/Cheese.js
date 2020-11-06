@@ -8,7 +8,7 @@ const Cheese = ({price,value,onDecrement,onIncrement}) => {
     const sumPrice = (price, value) => {
 
          return addCount + price * value;
-    }
+    } 
 
     return (
        

@@ -8,7 +8,7 @@ const Meat = ({price,value,onDecrement,onIncrement}) => {
     const sumPrice = (price, value) => {
          return addCount + price * value;
     }
-    return (
+    return ( 
         <div className="counter-detail">
         <p style={{marginRight:"35px"}}>Meat ($ 1.30):</p>
         <Button text="-" onClick={onDecrement} />

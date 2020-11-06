@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import Button from '../Component/Button'
 
 import '../Burger.css'
-import BurgerContent from '../Screen/BurgerContent';
-const Salad = ({item,price,value,onDecrement,onIncrement}) => {
+
+const Salad = ({price,value,onDecrement,onIncrement}) => {
 
  const [addCount, setAddCount] = useState(0);
 
